@@ -1,0 +1,10 @@
+{
+  "name": "gaokao-math-server",
+  "version": "1.0.0",
+  "description": "高考数学备考资料商店 - 零依赖后端服务",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  }
+}

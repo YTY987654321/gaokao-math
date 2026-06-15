@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>支付成功 - 高考数学刷题宝典</title>
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .success-page { text-align: center; padding: 80px 24px; }
+    .success-icon { font-size: 64px; margin-bottom: 12px; }
+    .success-page h2 { font-size: 28px; margin-bottom: 8px; color: var(--success); }
+    .success-page p { color: var(--text-secondary); margin-bottom: 24px; }
+    .btn-download {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--success); color: #0f0f1a;
+      padding: 14px 32px; border-radius: var(--radius);
+      font-size: 16px; font-weight: 700; border: none; cursor: pointer;
+      text-decoration: none; font-family: var(--font-cn);
+    }
+    .btn-download:hover { background: #81c784; color: #0f0f1a; }
+    .order-info { color: var(--text-muted); font-size: 13px; margin-top: 32px; }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="/" class="navbar-brand">
+        <span class="brand-icon">📐</span>
+        <span>高考数学刷题宝典</span>
+      </a>
+    </div>
+  </nav>
+
+  <div class="success-page" style="margin-top:80px;">
+    <div class="success-icon">✅</div>
+    <h2>支付成功！</h2>
+    <p>感谢你的购买，祝你高考数学取得好成绩！</p>
+    <a id="success-download" href="#" class="btn-download" style="display:none;">
+      📥 立即下载资料
+    </a>
+    <p class="order-info">
+      订单编号：<span id="order-id">--</span><br>
+      下载链接将在24小时内有效，请及时保存。
+    </p>
+    <p style="margin-top:16px;">
+      <a href="/">← 回到主页查看其他资料</a>
+    </p>
+  </div>
+
+  <script src="js/shop.js"></script>
+</body>
+</html>
