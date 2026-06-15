@@ -1,1 +1,1 @@
-{"scripts":{"start":"node server/server.js"}}
+{"name":"gaokao-math-server","scripts":{"start":"node server/server.js"},"main":"server/server.js"}
